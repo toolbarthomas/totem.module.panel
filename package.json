@@ -1,0 +1,26 @@
+{
+    "name": "totem.module.panel",
+    "version": "0.1.0",
+    "description": "Simple container element for outlining sections",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/toolbarthomas/totem.module.panel.git"
+    },
+    "keywords": [
+        "totem",
+        "tipi",
+        "totem-module"
+    ],
+    "author": "Thomas van der Velde <contact@toolbarthomas.net>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/toolbarthomas/totem.module.panel/issues"
+    },
+    "homepage": "https://github.com/toolbarthomas/totem.module.panel#readme",
+    "dependencies": {
+        "totem.template.module": "^0.6.1"
+    }
+}

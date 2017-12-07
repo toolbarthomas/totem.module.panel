@@ -1,0 +1,31 @@
+<div class="panel{{ panel_attributes.class ? ' ' ~  panel_attributes.class -}}"
+    {% for attribute, value in panel_attributes %}
+        {% if attribute != 'class' %}
+            {% if value is same as(true) %}
+                {{- ' ' ~ attribute -}}
+            {% elseif value is not empty %}
+                {{- attribute -}}="{{- value -}}"
+            {% endif %}
+        {% endif %}
+    {% endfor -%}
+>
+
+    {% if block('panel__header') is not empty %}
+        <header class="panel__header">
+            {{ block('panel__header')}}
+        </header>
+    {% endif %}
+
+    {% if block('panel__main') is not empty %}
+        <article class="panel__main">
+            {{ block('panel__main')}}
+        </article>
+    {% endif %}
+
+    {% if block('panel__footer') is not empty %}
+        <footer class="panel__footer">
+            {{ block('panel__footer')}}
+        </footer>
+    {% endif %}
+
+</div>
