@@ -1,0 +1,10 @@
+$panel-styles: (
+    '.panel': (
+        'background-color': color('block', 'base'),
+        'border-radius': box-model('border-radius', 'medium')
+    ),
+    '.panel--popup': (
+        'max-width': viewport('phablet', 'min-width'),
+        'box-shadow': box-model('box-shadow', 'z3')
+    )
+) !default;
