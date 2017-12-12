@@ -1,7 +1,7 @@
 .panel {
     position: relative;
-    margin-top: box-model('spacing', 'base');
-    margin-bottom: box-model('spacing', 'base');
+    margin-top: box-model('margin', 'base');
+    margin-bottom: box-model('margin', 'base');
 
     &:first-child {
         margin-top: 0;
@@ -15,7 +15,7 @@
 .panel__main,
 .panel__header,
 .panel__footer {
-    padding: box-model('gutter', 'base');
+    padding: box-model('padding', 'base');
 }
 
 .panel--popup {
