@@ -1,6 +1,6 @@
 {
     "name": "totem.module.panel",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Simple container element for outlining sections",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/toolbarthomas/totem.module.panel#readme",
     "dependencies": {
-        "totem.template.module": "^0.6.1"
+        "totem.template.module": "^0.7.0"
     }
 }
